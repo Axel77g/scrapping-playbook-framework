@@ -1,4 +1,4 @@
-# Scrapping Playbook Framework
+# Browser-playbook
 
 > A browser-agnostic browser automation framework inspired by Ansible
 
@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Scrapping Playbook Framework is a powerful, declarative browser automation framework that lets you define your automation tasks using simple YAML playbooks—just like Ansible. Say goodbye to writing repetitive boilerplate code for Selenium or Playwright. Instead, focus on **what** you want to automate, not **how** to code it.
+browser-playbook is a powerful, declarative browser automation framework that lets you define your automation tasks using simple YAML playbooks—just like Ansible. Say goodbye to writing repetitive boilerplate code for Selenium or Playwright. Instead, focus on **what** you want to automate, not **how** to code it.
 
 ### Why Use This Framework?
 
@@ -35,7 +35,7 @@ search_box.send_keys("browser automation")
 # ... more boilerplate code
 ```
 
-**With Scrapping Playbook Framework:**
+**With browser-playbook:**
 ```yaml
 tasks:
   - name: Navigate to website
